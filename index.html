@@ -74,6 +74,26 @@
             margin-bottom: 8px;
         }
 
+        /* Container para deixar o vídeo do YouTube responsivo */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            padding-top: 30px; 
+            height: 0; 
+            overflow: hidden;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
         .alert-box {
             background-color: #2d1f1f;
             border-left: 5px solid #ff3838;
@@ -113,30 +133,14 @@
         </section>
 
         <section>
-            <h2>O "Grau" como Movimento</h2>
-            <p>Para muitos jovens e praticantes, o grau vai além da infração: é considerado uma modalidade de esporte radical que exige alto controle do veículo, equilíbrio e treino constante.</p>
-            <p>Hoje existem movimentos que buscam a <strong>legalização da prática</strong> através de espaços controlados, conhecidos como "Graudódromos", isolados das vias públicas para garantir a segurança dos pilotos e de pedestres.</p>
+            <h2>Conteúdo em Vídeo</h2>
+            <p>Assista abaixo a conteúdos relacionados à cultura do grau e suas vertentes no cenário atual:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XoxGxjM9nY4?si=8phjey-9Voa_X46C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section>
-            <h2>O que diz a Lei (Artigo 244 do CTB)</h2>
-            <p>Conduzir motocicleta, motoneta ou ciclomotor realizando malabarismos ou equilibrando-se apenas em uma roda é considerado uma <strong>infração gravíssima</strong>.</p>
-            
-            <ul>
-                <li><strong>Penalidade:</strong> Multa e suspensão do direito de dirigir.</li>
-                <li><strong>Medida Administrativa:</strong> Retenção do veículo para regularização e recolhimento do documento de habilitação.</li>
-            </ul>
-
-            <div class="alert-box">
-                <h3>⚠️ Conscientização e Segurança</h3>
-                <p>A prática de manobras perigosas em vias públicas coloca em risco a vida do condutor e de terceiros. Pratique sempre em locais autorizados, privados e utilizando todos os equipamentos de proteção individual (EPIs) necessários.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Página Informativa sobre Legislação e Cultura Urbana. Pratique com responsabilidade.</p>
-    </footer>
-
-</body>
-</html>
+            <h2>O "Grau" como Movimento</h2>
+            <p>Para muitos jovens e praticantes, o grau vai além da infração: é considerado uma modalidade de esporte radical que exige alto controle do veículo, equilíbrio e treino constante.</p>
+            <p>Hoje existem movimentos que buscam a <strong>legalização da prática</strong> através de espaços controlados, conhecidos como "Graudódromos", isolados das vias públicas para garantir a segurança dos pilotos e de pedestres
